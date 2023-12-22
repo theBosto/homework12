@@ -17,3 +17,9 @@
         box-shadow: none;
     }
 }
+
+@media (max-width: 931px) {
+    .section_form {
+        padding-inline: 145px;
+    }
+}

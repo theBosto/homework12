@@ -1,3 +1,9 @@
+@media (max-width: 751px) {
+    .section_form {
+        padding-inline: 6px;
+    }
+}
+
 @media (max-width: 701px) {
     header {
         padding-inline: 8px;
