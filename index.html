@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/4dddd09fe6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/laptop.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+
+<body>
+    <div class="flex_container">
+        <header>
+            <div class="logo">
+                <img src="images/logo-plant.svg" alt="logo">
+            </div>
+
+            <form class="header_form" name="search">
+                <input type="search" name="search" placeholder="What are you looking for?" class="search_input">
+                <input type="image" src="images/charm_search.svg" class="search_icon">
+            </form>
+            <div class="user">
+                <button class="user_icon">
+                    <img src="images/gridicons_user.svg" alt="user">
+                </button>
+                <button class="login_button">LOG IN</button>
+                <button class="cart_button">
+                    <img src="images/cart.svg" alt="cart">
+                </button>
+            </div>
+        </header>
+
+        <section>
+            <form class="section_form">
+                <h2 class="form_header">
+                    CONTACT US
+                </h2>
+                <div class="register">
+                    <input type="text" class="input_text" placeholder="Name">
+                    <input type="email" class="input_email" class="input_email" placeholder="Email">
+                </div>
+
+                <div class="radio">
+                    <label for="Question" class="question">I have a delivery question about my order</label>
+                    <div class="answer1">
+                        <input type="radio" value="not" name="question" class="input_answer" id="not">
+                        <label for="not" class="question_label">I did not receive my order</label>
+                    </div>
+                    <div class="answer2">
+                        <input type="radio" value="incorrect" name="question" class="input_answer" id="incorrect">
+                        <label for="incorrect" class="question_label">My order is incorrect or arrived damaged</label>
+                    </div>
+                    <div class="answer3">
+
+                        <input type="radio" value="cancel" name="question" class="input_answer" id="cancel">
+                        <label for="cancel" class="question_label">Cancel my order</label>
+                    </div>
+                    <div class="answer4">
+
+                        <input type="radio" value="change" name="question" class="input_answer" id="change">
+                        <label for="change" class="question_label">Change my shipping address</label>
+                    </div>
+                </div>
+                <div class="textarea_div">
+                    <label for="textarea" class="textarea_label">Please provide more details below.</label>
+                    <input type="textarea" placeholder="Message" class="textarea_input" name="Message">
+                </div>
+                <div class="submit">
+                    <div class="checkbox_div">
+                        <input type="checkbox" name="checkbox" id="checkbox" class="checkbox">
+                        <label for="checkbox" class="checkbox_text">I want to receive the newsletter </label>
+                    </div>
+
+
+                    <button type="submit" value="submit" class="submit_button">SEND</button>
+                </div>
+
+
+            </form>
+        </section>
+</body>
+
+</html>

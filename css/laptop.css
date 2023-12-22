@@ -1,0 +1,19 @@
+@media (max-width: 1171px) {
+    header {
+        padding-inline: 40px;
+    }
+}
+
+@media (max-width: 1061px) {
+    .search_input {
+        display: none;
+    }
+
+    .search_icon {
+        width: 60px;
+        height: 60px;
+        padding: none;
+        background: none;
+        box-shadow: none;
+    }
+}

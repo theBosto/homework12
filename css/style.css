@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.flex_container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+header {
+    padding: 34px 72px;
+    background: #2E0230;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_form {
+    display: flex;
+    align-items: center;
+}
+
+.search_input {
+    width: 560px;
+    padding: 14px 0 15px 16px;
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid rgba(176, 82, 181, 0.79);
+    box-shadow: 0px -2px 5px 0px #F1ACEE;
+    background-color: transparent;
+    color: white;
+}
+
+.search_icon {
+    padding: 16px;
+    height: 46px;
+    border-radius: 0px 8px 8px 0px;
+    box-shadow: 0px -2px 5px 0px #F1ACEE;
+    background: #B052B5;
+}
+
+.user {
+    display: flex;
+    column-gap: 8px;
+}
+
+.user_icon {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #F30AEA;
+    display: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.login_button {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #F30AEA;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.cart_button {
+    padding: 13px;
+    border-radius: 8px;
+    background: #F30AEA;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    background-image: url(../images/cover-image.png);
+    height: 898px;
+    display: flex;
+    justify-content: center;
+    padding: 64px 288px;
+
+}
+
+.section_form {
+    border-radius: 20px;
+    border: 1px solid rgba(176, 82, 181, 0.79);
+    background: rgba(28, 19, 37, 0.80);
+    backdrop-filter: blur(5px);
+    padding: 48px 200px;
+}
+
+.form_header {
+    color: #FFF;
+    text-shadow: 2px 4px 4px rgba(249, 12, 239, 0.71);
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.register {
+    display: flex;
+    column-gap: 24px;
+}
+
+.input_text {
+    border-radius: 8px;
+    border: 1px solid #B052B5;
+    padding: 11px 149px 11px 22px;
+    background-color: transparent;
+    color: white;
+
+}
+
+.input_email {
+    border-radius: 8px;
+    border: 1px solid #B052B5;
+    padding: 11px 149px 11px 22px;
+    background-color: transparent;
+    color: white;
+
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+    margin-block: 24px;
+}
+
+.question {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+input[type=radio] {
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+    border: 2px solid rgba(243, 10, 234, 0.71);
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.question_label {
+    color: #B052B5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.textarea_div {
+    display: flex;
+    flex-direction: column;
+    column-gap: 8px;
+}
+
+.textarea_label {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.textarea_input {
+    padding: 11px 370px 75px 22px;
+    border-radius: 8px;
+    border: 1px solid #B052B5;
+    background-color: transparent;
+    color: white;
+}
+
+.checkbox_div {
+    display: flex;
+    margin-top: 24px;
+    column-gap: 8px;
+}
+
+.checkbox {
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    padding: 3.997px 3.997px 4px 4px;
+    border-radius: 4px;
+    border: 2px solid #F30AEA;
+}
+
+.checkbox:checked::after {
+    content: "\f00c";
+    font-family: "Font Awesome 6 Free";
+    font-size: 15px;
+    color: #F30AEA;
+}
+
+.checkbox_text {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.submit_button {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    border-radius: 16px;
+    background: #F30AEA;
+    border: none;
+    padding: 19px 0px;
+}

@@ -1,0 +1,19 @@
+@media (max-width: 701px) {
+    header {
+        padding-inline: 8px;
+    }
+}
+
+@media (max-width: 601px) {
+    .login_button {
+        display: none;
+    }
+
+    .user_icon {
+        display: block;
+    }
+
+    .cart_button {
+        padding: 8px;
+    }
+}
