@@ -74,7 +74,6 @@ header {
 
 section {
     background-image: url(../images/cover-image.png);
-    height: 898px;
     display: flex;
     justify-content: center;
     padding: 64px 288px;

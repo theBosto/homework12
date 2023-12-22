@@ -18,7 +18,11 @@
     }
 }
 
-@media (max-width: 931px) {
+@media (max-width: 935px) {
+    section {
+        padding: 64px 40px;
+    }
+
     .section_form {
         padding-inline: 145px;
     }
